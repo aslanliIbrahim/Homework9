@@ -13,8 +13,9 @@ header{
     justify-content: flex-end;
     text-align: end;
 }
-.card{
+.card1{
     border: 1px solid black;
+    border-radius: 12px;
     width: 150px;
     height: 40px;
     display: flex;
@@ -22,7 +23,7 @@ header{
     justify-content: space-around;
     align-items: center;
 }
-.card:hover{
+.card1:hover{
     background-color: black;
     transition-duration: 1s;
     color: white;
@@ -58,3 +59,6 @@ color: gray;
     display: flex;
     justify-content: space-around;
 }
+/* .second-main{
+    padding: 200px;
+}  */
